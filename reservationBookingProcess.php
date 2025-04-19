@@ -10,7 +10,6 @@ $mobile = $_POST["mobile"];
 $message = $_POST["message"];
 
 $datetime = $date . ' ' . $time;
-echo $datetime;
 if (empty($fname)) {
     echo ("Please Enter Your First Name");
 } else if (strlen($fname) > 25) {
@@ -63,7 +62,7 @@ if (empty($fname)) {
                 Database::iud("INSERT INTO `reservation`(`user_id`, `date_time`, `table`, `message`, `email_sent_status_id`) 
                            VALUES ('" . $userId . "','" . $datetime . "'," . $selectedTable . ",'" . $message . "',1)");
 
-                echo "Success! Table " . $selectedTable . " has been booked.";
+                echo "Table " . $selectedTable . " has been booked.";
             } else {
                 echo "Error: User not found.";
             }
