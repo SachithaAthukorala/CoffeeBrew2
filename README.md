@@ -12,9 +12,9 @@ A simple and elegant coffee shop web platform.
 ➡️ [Admin Login](http://coffeebrew.free.nf/adminSignIn.php)  
 
 **Credentials:**  
-- **Email:** `example@gmail.com`  
-- **Password:** `1234567`
-
+- **Email:**   
+- **Password:**
+`provided in LMS`
 ---
 
 ## 🛠️ Admin Features
