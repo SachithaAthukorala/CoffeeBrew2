@@ -414,18 +414,15 @@ function reservation() {
         req.onreadystatechange = function () {
             if (req.readyState == 4) {
                 let t = req.responseText;
-                if (t == "success") {
-                    alert(t);
-                    email.value = "";
-                    fname.value = "";
-                    lname.value = "";
-                    date.value = "";
-                    time.value = "";
-                    mobile.value = "";
-                    message.value = "";
-                } else {
-                    alert(t);
-                }
+                alert(t);
+                email.value = "";
+                fname.value = "";
+                lname.value = "";
+                date.value = "";
+                time.value = "";
+                mobile.value = "";
+                message.value = "";
+                location.reload();
             }
         }
 
