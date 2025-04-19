@@ -30,4 +30,6 @@ A simple and elegant coffee shop web platform.
 - 📬 **Receive Contact Form Submissions**  
   - Messages sent through the contact form are forwarded to the working staff's email
 
+note
+if mails not in inbox check your spam folder
 ---
