@@ -33,12 +33,12 @@ if (empty($name)) {
     $mail->IsSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'emailsender138@gmail.com';
-    $mail->Password = 'abmesauzpvgpeqao';
+    $mail->Username = 'emailsender@gmail.com';
+    $mail->Password = 'pw';
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
-    $mail->setFrom('emailsender138@gmail.com', 'CoffeeBrew');
-    $mail->addReplyTo('emailsender138@gmail.com', 'CoffeeBrew');
+    $mail->setFrom('emailsender@gmail.com', 'CoffeeBrew');
+    $mail->addReplyTo('emailsender@gmail.com', 'CoffeeBrew');
     $mail->addAddress($contactUsEmail);
     $mail->isHTML(true);
     $mail->Subject = 'CoffeeBrew Contact Us Form';
