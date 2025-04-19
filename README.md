@@ -13,6 +13,7 @@ A simple and elegant coffee shop web platform.
 
 **Credentials:**  
 - **Email:**   
+`provided in LMS`
 - **Password:**
 `provided in LMS`
 ---
