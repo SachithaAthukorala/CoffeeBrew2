@@ -12,10 +12,8 @@ A simple and elegant coffee shop web platform.
 ➡️ [Admin Login](http://coffeebrew.free.nf/adminSignIn.php)  
 
 **Credentials:**  
-- **Email:**   
-`provided in LMS`
-- **Password:**
-`provided in LMS`
+- **Email:** `provided in LMS`
+- **Password:** `provided in LMS`
 ---
 
 ## 🛠️ Admin Features
