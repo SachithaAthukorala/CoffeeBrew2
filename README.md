@@ -26,7 +26,7 @@ A simple and elegant coffee shop web platform.
   - Use checkboxes to mark items as "Popular" so they appear in the popular menu section
 - 📩 **Manage Reservation Requests**  
   - View reservation bookings made through the homepage
-  - Click the **yellow button** to send confirmation emails to customers
+  - Click the **yellow button** to send confirmation emails to customers (make sure to request a reservation from index)
 - 📬 **Receive Contact Form Submissions**  
   - Messages sent through the contact form are forwarded to the working staff's email
 
